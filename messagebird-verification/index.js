@@ -1,8 +1,8 @@
-const express = require('express');
-const app = express();
+import express from require('express');
+import app from express();
 
-const dotenv = require('dotenv');
-const userRoutes = require('./routes/userRoutes');
+import dotenv from require('dotenv');
+import userRoutes from require('./routes/userRoutes');
 
 dotenv.config({ path: './config/config.env' });
 
